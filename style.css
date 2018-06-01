@@ -1,0 +1,397 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+#page {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+}
+
+/*Header*/
+
+#titlelogo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+#nav ul{
+    margin-top: 25px;
+}
+
+#nav ul li {
+    display: inline;
+    font-size: 22px;
+    margin-left: 60px;
+}
+
+a {
+    color: #000000;
+}
+
+#nav ul li.active a {
+    color: #284950;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+#nav ul li a:hover{
+    color: #284950;
+    font-weight: bold;
+}
+
+#intro{
+    width: 960px;
+    height: 300px;
+    background-color: #76F9FB;
+    padding-top: 10px;
+}
+
+/*Background*/
+
+.third {
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+    height:auto;
+    overflow: auto;
+    width: 100%;
+    background-image: url("img/background.png");
+    background-size: 100% 798px;
+    background-repeat: no-repeat;
+}
+
+/*main of Home*/
+
+#main1 {
+    position: relative;
+    height: 801px;
+}
+
+.container{
+    width: 960px;
+    height: 710px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image1{
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+
+#image2{
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+
+#image3{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+
+#main2 {
+   height: auto;
+   overflow:auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#main2 img{
+    float:left;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+#main2 p{
+    float: right;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Courier New';
+    margin-top: 280px;
+}
+#main3 {
+    height: auto;
+    overflow: auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main3 h2 {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 24px;
+}
+
+.row{
+    height: auto;
+    overflow: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.im1{
+    float:left;
+    margin-left: 100px;
+}
+
+.im2{
+    float:right;
+    margin-right: 100px;
+}
+
+/*main of About*/
+
+#subnav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+#subnav ul{
+    margin-top: 25px;
+}
+
+#subnav ul li {
+    display: inline;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+#imagea {
+    float:left;
+    margin-top: 30px;
+}
+
+#biography {
+    float: right;
+    font-family: "Courier New";
+    text-align: center;
+    margin-top: 240px;
+}
+
+#biography h2 {
+    margin-bottom: 20px;
+}
+
+#imagea2 {
+    float: right;
+    margin-top: 70px;
+}
+
+#education {
+    float:left;
+    margin-top: 270px;
+    font-family: "Courier New";
+    text-align: center;
+}
+
+#education h2 {
+    margin-bottom: 20px;
+}
+
+#imagea3 {
+    float:left;
+    margin-top: 70px;
+}
+
+#skills {
+    float: right;
+    margin-top: 270px;
+    font-family: "Courier New";
+    text-align: center;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#cv {
+    float: right;
+    margin-top: 260px;
+    margin-right: 132px;
+}
+
+/* main of Contact*/
+
+#contacttitle {
+    margin-top: 90px;
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 25px;
+    margin-bottom: 90px;
+}
+
+#imposition {
+    text-align: center;
+}
+
+#address {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: "Courier New";
+    font-size: 16px;
+}
+
+#immail {
+    text-align: center;
+}
+#emailaddress {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: "Courier New";
+    font-size: 16px;
+}
+
+#imtelephone {
+    text-align: center;
+}
+
+#telephone {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: "Courier New";
+    font-size: 16px;
+}
+
+/*main of Experience*/
+
+#hci {
+    float: left;
+    width: 50%;
+}
+#hci img{
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+#hci p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#braille {
+    width: 50%;
+    float: right;
+}
+
+#braille img {
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+#braille p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#mdw {
+    clear: both;
+    text-align: center;
+}
+
+#mdw img {
+    margin-top: 40px;
+}
+
+#mdw p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*Footer*/
+
+#footer {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#container_footer{
+    width: 960px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container_footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+#footercontent{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 45px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    float: left;
+}
+
+#footercontent ul li {
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 53px;
+}
+
+#social_menu{
+    margin-top: 35px;
+    float: right;
+}
+
+#social_menu ul li{
+    display: inline;
+    margin-left: 30px;
+}
+
+a {
+    color: #000000;
+}
+
+#social {
+    position: relative;
+    height: 10px;
+    margin-right: 50px;
+}
