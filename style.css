@@ -10,6 +10,7 @@ img {
 a {
     text-decoration: none;
     outline: none;
+    color: #000000;
 }
 
 #page {
@@ -45,10 +46,6 @@ a {
     display: inline;
     font-size: 22px;
     margin-left: 60px;
-}
-
-a {
-    color: #000000;
 }
 
 #nav ul li.active a {
@@ -304,6 +301,11 @@ a {
     font-family: "Montserrat";
     font-weight: bold;
     font-size: 16px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #284950;
 }
 
 #braille {
